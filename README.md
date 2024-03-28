@@ -7,7 +7,7 @@
 
 1. Ryan Overbeck
 2. Minwoo Park
-3. Brroke Carlisle
+3. Brooke Carlisle
 4. Mathias Flanagan
 5. Connor Walker
 
