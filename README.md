@@ -106,7 +106,7 @@ Our entity with the most foreign keys, EventAndTournamentManagement, has the mos
 | TrainingSchedule         | Schedule of training                 | VARCHAR   | 500  | Week/ Time /Date |   |
 | PlayerDevelopmentProgram | Program for player development       | VARCHAR   | 45   |              |      |
 | PerformanceAssessments   | Assessments of performance           | VARCHAR   | 45   |              |      |
-| Assistant Coach          | ID of Assistant Coach                | INT       |      |              | FK(ref Coaching and Development) |
+| Assistant Coach          | ID of Assistant Coach                | INT       |      |              | FK(ref Coaching and Development- Recursive Relationship) |
 
 ### Financial Management
 
@@ -179,7 +179,7 @@ Our entity with the most foreign keys, EventAndTournamentManagement, has the mos
 
 | Column Name | Description                             | Data Type | Size | Format      | Key? |
 |-------------|-----------------------------------------|-----------|------|-------------|------|
-| MemberID    | Unique identifier for members           | INT       |      |             | FK (ref. Event and Members) |
+| PlayerID    | Unique identifier for players          | INT       |      |             | FK (ref.Player Profile) |
 | EventID     | Unique identifier for event/tournament  | INT       |      |             | FK (ref. Event and Members) |
 
 ### Roster - Associative Entity
