@@ -24,7 +24,9 @@ Going up from MembershipManagement to PlayerProfiles, we have one branch that st
 
 Our entity with the most foreign keys, EventAndTournamentManagement, has the most relationships because there are many different factors and entities that go into planning one single cricket Event/Tournament for our club to participate in. All of these different entities that go into planning our clubs events/tournaments have a one-to-many relationship with EventAndTournamentManagement. For example, since many teams can play in one particular event/tournament, the one-to-many allows teamID to be insured into the  EventAndTournamentManagement as a foreign key. The UmpireManagement Table represents all the different Umpires in the particular event by their unique UmpireID as well as some additional information. Each Event/Tournament can have many different sponsors, which is why each sponsor is given a uniqueID and the sponsor table contains detailed information about the involvement and name of the sponsor. There can be many different Newsletters coming out from one event, which leads to the specific Newsletter (newsletterID) being inserted into the  EventAndTournamentManagement table as a foreign key. The last table with a one-to-many relationship with EventAndTournamentManagement is the FacilityandEquipmentManagement, as many different fields can be part of one cricket tournament and it is important for our club members to know the field they are playing on. Within the FacilityandEquipmentManagement table is the foreign key of staffID, which comes from the VoulunteerandStaffManagement table which has a one-to-many relationship with FacilityandEquipmentManagement. This table is designed to list all the different staff members at a particular venue. 
 
-![image](https://github.com/rjo82443/Cricket_Group4/assets/163200122/21402d79-3063-46c4-9a64-2ee246eb606b)
+
+![image](https://github.com/rjo82443/Cricket_Group4/assets/163200122/04a2e661-8f3c-46f8-9ae3-f3ddb7b6f2c2)
+
 
 
 ## Data Dictionary:
