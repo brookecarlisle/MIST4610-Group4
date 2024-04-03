@@ -34,44 +34,46 @@ In essence, the relationships within our data model reflect the many interaction
 
 
 ## Data Dictionary:
+## Data Dictionary:
+
 ### Membership Management
 
-| Column Name        | Description                            | Data Type | Size | Format         | Key? |
-|--------------------|----------------------------------------|-----------|------|----------------|------|
-| MemberID           | Unique identifier for members          | INT       |      |                | PK   |
-| Name               | Name of the member                     | VARCHAR   | 45   | Last, First    |      |
-| DateOfBirth        | Date of birth of the member            | DATE      |      | MM/DD/YYYY     |      |
-| ContactInformation | Contact details of the member          | VARCHAR   | 120  | (XXX) - XXX-XXX |      |
-| MembershipType     | Type of Membership                    | VARCHAR   | 45   |                |      |
-| JoiningDate        | Date when the member joined            | DATE      |      | MM/DD/YYYY     |      |
-| PaymentStatus      | Status of membership payment           | VARCHAR   | 45   |                |      |
-| TransactionID      | Unique identifier for transactions     | INT       |      |                | FK (ref. Financial Management) |
+| Column Name        | Description                            | Data Type | Size | Format           | Key? |
+|--------------------|----------------------------------------|-----------|------|------------------|------|
+| MemberID           | Unique identifier for members          | INT       |      |                  | PK   |
+| Name               | Name of the member                     | VARCHAR   | 45   | Last, First      |      |
+| DateOfBirth        | Date of birth of the member            | DATE      |      | MM/DD/YYYY       |      |
+| ContactInformation | Contact details of the member          | VARCHAR   | 120  | (XXX) - XXX-XXXX |      |
+| MembershipType     | Type of Membership                    | VARCHAR   | 45   |                  |      |
+| JoiningDate        | Date when the member joined            | DATE      |      | MM/DD/YYYY       |      |
+| PaymentStatus      | Status of membership payment           | VARCHAR   | 45   |                  |      |
+| TransactionID      | Unique identifier for transactions     | INT       |      |                  | FK (ref. Financial Management) |
 
 ### Player Profiles
 
-| Column Name        | Description                            | Data Type | Size | Format         | Key? |
-|--------------------|----------------------------------------|-----------|------|----------------|------|
-| PlayerID           | Unique identifier for players          | INT       |      |                | PK   |
-| Name               | Name of the player                     | VARCHAR   | 45   | Last, First    |      |
-| DateofBirth        | Date of birth of the player            | DATE      |      | MM/DD/YYYY     |      |
-| ContactInformation | Contact details of the player          | VARCHAR   | 120  | (XXX)-XXX-XXX |      |
-| PositionPlayed     | Position played by the player          | VARCHAR   | 45   |                |      |
-| BattingAverage     | The batting average of the player      | DECIMAL   | (1,3)| X.XXX          |      |
-| BowlingAverage     | Bowling average of the player          | DECIMAL   | (1,3)| X.XXX          |      |
-| MatchesPlayed      | Number of matches played               | INT       |      |                |      |
-| MemberID           | Unique identifier for members          | INT       |      |                | FK (ref. Membership Management) |
+| Column Name        | Description                            | Data Type | Size | Format           | Key? |
+|--------------------|----------------------------------------|-----------|------|------------------|------|
+| PlayerID           | Unique identifier for players          | INT       |      |                  | PK   |
+| Name               | Name of the player                     | VARCHAR   | 45   | Last, First      |      |
+| DateofBirth        | Date of birth of the player            | DATE      |      | MM/DD/YYYY       |      |
+| ContactInformation | Contact details of the player          | VARCHAR   | 120  | (XXX)-XXX-XXX   |      |
+| PositionPlayed     | Position played by the player          | VARCHAR   | 45   |                  |      |
+| BattingAverage     | The batting average of the player      | DECIMAL   | (1,3)| X.XXX            |      |
+| BowlingAverage     | Bowling average of the player          | DECIMAL   | (1,3)| X.XXX            |      |
+| MatchesPlayed      | Number of matches played               | INT       |      |                  |      |
+| MemberID           | Unique identifier for members          | INT       |      |                  | FK (ref. Membership Management) |
 
 ### Team Management
 
-| Column Name    | Description                          | Data Type | Size | Format   | Key? |
-|----------------|--------------------------------------|-----------|------|----------|------|
-| TeamID         | Unique identifier for teams          | INT       |      |          | PK   |
-| TeamName       | Name of the team                     | VARCHAR   | 45   |          |      |
-| AgeGroup       | The age group of the team            | VARCHAR   | 45   |          |      |
-| HomeGround     | The home ground of the team          | INT       | 45   |          |      |
-| MatchSchedule  | Schedule of matches                  | VARCHAR   | 500  |          |      |
-| Results        | Results of matches                   | VARCHAR   | 500  |          |      |
-| CoachID        | Identifier of the coach              | INT       |      |          | FK (ref. coaching and development) |
+| Column Name    | Description                          | Data Type | Size | Format        | Key? |
+|----------------|--------------------------------------|-----------|------|---------------|------|
+| TeamID         | Unique identifier for teams          | INT       |      |               | PK   |
+| TeamName       | Name of the team                     | VARCHAR   | 45   |               |      |
+| AgeGroup       | The age group of the team            | VARCHAR   | 45   |               |      |
+| HomeGround     | The home ground of the team          | INT       | 45   |               |      |
+| MatchSchedule  | Schedule of matches                  | VARCHAR   | 500  |               |      |
+| Results        | Results of matches                   | VARCHAR   | 500  |               |      |
+| CoachID        | Identifier of the coach              | INT       |      |               | FK (ref. coaching and development) |
 
 ### Facility and Equipment
 
@@ -104,15 +106,15 @@ In essence, the relationships within our data model reflect the many interaction
 
 ### Coaching and Development
 
-| Column Name              | Description                          | Data Type | Size | Format       | Key? |
-|--------------------------|--------------------------------------|-----------|------|--------------|------|
-| CoachID                  | Unique identifier for coaches        | INT       |      |              | PK   |
-| CoachName                | Name of the coach                    | VARCHAR   | 45   | Last, First  |      |
-| Qualifications           | Qualifications of the coach          | VARCHAR   | 45   |              |      |
-| TrainingSchedule         | Schedule of training                 | VARCHAR   | 500  | Week/ Time /Date |   |
-| PlayerDevelopmentProgram | Program for player development       | VARCHAR   | 45   |              |      |
-| PerformanceAssessments   | Assessments of performance           | VARCHAR   | 45   |              |      |
-| Assistant Coach          | ID of Assistant Coach                | INT       |      |              | FK(ref Coaching and Development- Recursive Relationship) |
+| Column Name              | Description                          | Data Type | Size | Format          | Key? |
+|--------------------------|--------------------------------------|-----------|------|-----------------|------|
+| CoachID                  | Unique identifier for coaches        | INT       |      |                 | PK   |
+| CoachName                | Name of the coach                    | VARCHAR   | 45   | Last, First     |      |
+| Qualifications           | Qualifications of the coach          | VARCHAR   | 45   |                 |      |
+| TrainingSchedule         | Schedule of training                 | VARCHAR   | 500  | Week/ Time /Date |      |
+| PlayerDevelopmentProgram | Program for player development       | VARCHAR   | 45   |                 |      |
+| PerformanceAssessments   | Assessments of performance           | VARCHAR   | 45   |                 |      |
+| Assistant Coach          | ID of Assistant Coach                | INT       |      |                 | FK(ref Coaching and Development- Recursive Relationship) |
 
 ### Financial Management
 
@@ -185,8 +187,8 @@ In essence, the relationships within our data model reflect the many interaction
 
 | Column Name | Description                             | Data Type | Size | Format      | Key? |
 |-------------|-----------------------------------------|-----------|------|-------------|------|
-| PlayerID    | Unique identifier for players          | INT       |      |             | FK (ref.Player Profile) |
-| EventID     | Unique identifier for event/tournament  | INT       |      |             | FK (ref. Event and Members) |
+| PlayerID    | Unique identifier for players           | INT       |      |             | FK (ref.Player Profile) |
+| EventID     | Unique identifier for event/tournament   | INT       |      |             | FK (ref. Event and Members) |
 
 ### Roster - Associative Entity
 
