@@ -231,8 +231,7 @@ Query 3 joins the MembershipManagement table and the playerProfiles table based 
 
 
 Query 4. Write a query to find the name of the coach of each team who has qualifications that are in Level 3.
-
-    <img width="444" alt="Query4" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/39c46a7d-384e-4b39-85eb-8a458e2b6fa4">
+<img width="444" alt="Query4" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/f3600be9-ebaa-4635-b4ca-5754419048d8">
 <img width="506" alt="Query4 Results" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/3d9cdde3-75cb-48ed-9938-e76904eec0f0">
 
 Query 4 joins the CoachingandDevelopment table with the teamManagement table so that it can retrieve the Coach and match them to their team. It also refines the retrieval of data to only coaches that have a qualification level of 3.
@@ -246,7 +245,7 @@ Query 5. Formulate an SQL query to calculate the total number of matches played 
 Query 5 calculates the total number of matches played and the average batting average for each player. Evaluating player performance and optimizing team composition are essential for this information. Understanding players' participation and performance metrics can help adjust training programs or make strategic decisions.
 
 
-Query 6. List the Number of new members that joined in February 2024.
+Query 6. List the Number of new members that joined in February 2023.
 
 <img width="433" alt="Query6" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/99d85cb2-1804-46f4-871d-1888a14c8642">
 <img width="270" alt="Query6 Results" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/f306e7a7-15af-4002-9b32-e8809baa2b75">
