@@ -293,3 +293,5 @@ Query 10 calculates the average batting and bowling averages and counts players 
 ## Database information:
 
 Name of database: al_Group_21482_G4;
+
+Additional information: Each query listed above is marked in the database using stored procedures which can be called using the following format: CALL TP_Q1();
