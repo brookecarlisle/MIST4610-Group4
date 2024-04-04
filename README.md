@@ -274,12 +274,12 @@ Query 8. Write a query to calculate and display the percentage change in revenue
 Query 8 calculates the percentage change in revenue for the current month compared to the previous month. Monitoring financial status and evaluating the effectiveness of revenue-generating strategies. Tracking revenue changes can inform actions to maintain the organization's financial health.
 
 
-Query 9. Write an SQL script that retrieves a comprehensive list of players who have participated in every single match throughout the tournament.
+Query 9. Write an SQL script that retrieves a comprehensive list of players who have participated in every single match throughout the tournament who have higher average batting rates than the minimum average batting rate.
     
-<img width="942" alt="Query9" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/e5f68d29-d282-4426-a130-48edd0633280">
-<img width="987" alt="Query9 Results" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/1f2e409d-c350-4b50-b615-06c627ac88aa">
+![image](https://github.com/rjo82443/Cricket_Group4/assets/163201310/be19ae7b-33e7-470d-9885-bdee7d2aa530)
+![image](https://github.com/rjo82443/Cricket_Group4/assets/163201310/8c18891b-0cf4-46a1-b729-054a30f1d335)
 
-Query 9 returns a list of players who have participated in all matches. It aids in identifying key players for the team and managing player appearances. Incentives or additional training could be considered for key performing players.
+Query 9 returns a list of players who have participated in all matches with a higher average batting rate than standard. It aids in identifying key players for the team and managing player appearances. Incentives or additional training could be considered for key performing players.
 
 
 Query 10. Write an SQL query that calculates the average batting and bowling averages for cricket players and also counts the number of players whose batting average is higher than the average batting average or whose bowling average is lower than the average bowling average
