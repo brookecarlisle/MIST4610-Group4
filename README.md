@@ -225,6 +225,7 @@ Query 2 calculates the total expenses incurred between January 1, 2024, and May 
 Query 3. Write a query that showcases information such as name, position, and batting average of Bowler(position), Alice Smith.
    
 <img width="557" alt="Query3" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/263d65b0-b34a-4c34-8dfc-2169444a38c4">
+
 <img width="523" alt="Query3 Results" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/fde579fc-63ed-48b0-8b35-6c2c2d1cb812">
 
 Query 3 joins the MembershipManagement table and the playerProfiles table based on the memberID in the MembershipManagement table and the PlayerID in the playerProfiles table. As a result, it retrieves the name (Name), position (positionPlayed), and batting average of specific players.
@@ -233,6 +234,7 @@ Query 3 joins the MembershipManagement table and the playerProfiles table based 
 Query 4. Write a query to find the name of the coach of each team who has qualifications that are in Level 3.
 
 <img width="444" alt="Query4" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/f3600be9-ebaa-4635-b4ca-5754419048d8">
+
 <img width="506" alt="Query4 Results" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/3d9cdde3-75cb-48ed-9938-e76904eec0f0">
 
 Query 4 joins the CoachingandDevelopment table with the teamManagement table so that it can retrieve the Coach and match them to their team. It also refines the retrieval of data to only coaches that have a qualification level of 3.
@@ -246,10 +248,11 @@ Query 5. Formulate an SQL query to calculate the total number of matches played 
 Query 5 calculates the total number of matches played and the average batting average for each player. Evaluating player performance and optimizing team composition are essential for this information. Understanding players' participation and performance metrics can help adjust training programs or make strategic decisions.
 
 
-Query 6. List the Number of new members that joined in February 2023.
+Query 6. List the Number of new members that joined in February 2024.
 
-<img width="433" alt="Query6" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/99d85cb2-1804-46f4-871d-1888a14c8642">
-<img width="270" alt="Query6 Results" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/f306e7a7-15af-4002-9b32-e8809baa2b75">
+<img width="421" alt="Screenshot 2024-04-04 at 4 45 08 PM" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/ec8c2b11-fd16-44b2-ac8d-deec458951fa">
+
+<img width="409" alt="Screenshot 2024-04-04 at 4 45 16 PM" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/27126d66-1ff1-4353-8d38-2405c7114999">
 
 Query 6 calculates the number of new members who have joined in the Feb 2024. It's used to assess the organization's growth trend and the effectiveness of efforts to attract new members. Analyzing membership trends can help adjust marketing strategies.
 
