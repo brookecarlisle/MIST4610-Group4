@@ -8,7 +8,7 @@
 1. Ryan Overbeck https://github.com/rjo82443
 2. Minwoo Park https://github.com/Haroom02
 3. Brooke Carlisle https://github.com/brookecarlisle
-4. Mathias Flanagan
+4. Mathias Flanagan https://github.com/mf727
 5. Connor Walker
 
 ## Problem Description:
