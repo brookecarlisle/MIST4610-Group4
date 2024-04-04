@@ -231,6 +231,7 @@ Query 3 joins the MembershipManagement table and the playerProfiles table based 
 
 
 Query 4. Write a query to find the name of the coach of each team who has qualifications that are in Level 3.
+
 <img width="444" alt="Query4" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/f3600be9-ebaa-4635-b4ca-5754419048d8">
 <img width="506" alt="Query4 Results" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/3d9cdde3-75cb-48ed-9938-e76904eec0f0">
 
