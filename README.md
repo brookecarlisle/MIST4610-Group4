@@ -200,11 +200,11 @@ In essence, the relationships within our data model reflect the many interaction
 ## Queries:
 | Query Identification    | Query 1 | Query 2 | Query 3 | Query 4 | Query 5 | Query 6 | Query 7 | Query 8 | Query 9 | Query 10 |
 |-------------------------|---------|---------|---------|---------|---------|---------|---------|---------|---------|----------|
-| Simple                  |         |         |         |         |         |         |         |         |         |          |
-| Complex                 |         |         |         |         |         |         |         |         |         |          |
-| Multiple Table Join     |         |         |         |         |         |         |         |         |         |          |
-| Subquery                |         |         |         |         |         |         |         |         |         |          |
-| Correlated Subquery     |         |         |         |         |         |         |         |         |         |          |
+| Simple                  |         |     X    |      X   |         |   X      |     X    |         |         |         |          |
+| Complex                 |   X      |         |        |  X       |  X      |         |    X     |    X     |  X       | X         |
+| Multiple Table Join     |     X    |         |     X    |   X      |    X     |         |         |         |         |          |
+| Subquery                |         |         |         |         |         |         |     X    |   X      |    X     |    X      |
+| Correlated Subquery     |         |         |         |         |         |         |    X     |         |         |          |
 
 1. Write a query to find the names, positions, batting averages, bowling averages, and membership types of cricket players whose batting averages are greater than 65. Order the Results in descending order.
 
