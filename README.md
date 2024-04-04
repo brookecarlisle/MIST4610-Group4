@@ -257,10 +257,11 @@ Query 6. List the Number of new members that joined in February 2024.
 Query 6 calculates the number of new members who have joined in the Feb 2024. It's used to assess the organization's growth trend and the effectiveness of efforts to attract new members. Analyzing membership trends can help adjust marketing strategies.
 
 
-Query 7. Write a Query that lists the players with a batting average above the overall average batting average of all players.
-   
-<img width="540" alt="Query7" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/d062c29c-d663-4bfe-a212-6e3245b64819">
-<img width="512" alt="Query7 Results" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/848bb93d-9add-488b-ba73-651f68d64424">
+Query 7. Write a Query that lists the players with a batting average above the overall average batting average of all players. The player's position is Bowler. 
+
+<img width="727" alt="Screenshot 2024-04-04 at 5 06 50 PM" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/15ed6860-f937-4f4b-84c7-074061027a88">
+
+<img width="488" alt="Screenshot 2024-04-04 at 5 07 02 PM" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/d1ce193a-8002-4205-afd0-35f3853e84ed">
 
 Query 7 returns a list of players whose batting average is above the average. It helps in identifying key players and improving the overall performance of the squad. Opportunities can be given to high-performing players or considered for incentives.
 
