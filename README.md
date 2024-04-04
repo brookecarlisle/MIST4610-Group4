@@ -288,3 +288,4 @@ Query 10 calculates the average batting and bowling averages and counts players 
 
 ## Database information:
 
+Name of database: al_Group_21482_G4;
