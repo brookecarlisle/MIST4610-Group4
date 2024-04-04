@@ -46,7 +46,7 @@ In essence, the relationships within our data model reflect the many interaction
 | MembershipType     | Type of Membership                    | VARCHAR   | 45   |                  |      |
 | JoiningDate        | Date when the member joined            | DATE      |      | MM/DD/YYYY       |      |
 | PaymentStatus      | Status of membership payment           | VARCHAR   | 45   |                  |      |
-| financialManagement_ransactionID      | Unique identifier for transactions     | INT       |      |                  | FK (ref. Financial Management) |
+| financialManagement_transactionID      | Unique identifier for transactions     | INT       |      |                  | FK (ref. Financial Management) |
 
 ### Player Profiles
 
@@ -101,7 +101,7 @@ In essence, the relationships within our data model reflect the many interaction
 | facilityAndEquipment_facilityID         | Unique identifier for Facility       | INT       |      |               | FK(ref.Facility and Equipment Management) |
 | umpireManagement_umpireID           | Unique identifier for Umpire         | INT       |      |               | FK(ref. Umpire Management) |
 | CommAndMark_newsletterID       | Unique identifier for newsletter     | INT       |      |               | FK(ref. Communication and Marketing) |
-| sponsorshipAndPartnerships_ponsorID          | Unique identifier for sponsor        | INT       |      |               | FK(ref.Sponsorship and Partnerships) |
+| sponsorshipAndPartnerships_sponsorID          | Unique identifier for sponsor        | INT       |      |               | FK(ref.Sponsorship and Partnerships) |
 
 ### Coaching and Development
 
