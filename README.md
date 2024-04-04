@@ -240,7 +240,7 @@ Query 4. Write a query to find the name of the coach of each team who has qualif
 Query 4 joins the CoachingandDevelopment table with the teamManagement table so that it can retrieve the Coach and match them to their team. It also refines the retrieval of data to only coaches that have a qualification level of 3.
 
 
-Query 5. Formulate an SQL query to calculate the total number of matches played and the average batting performance for each player?
+Query 5. Formulate an SQL query to calculate the total number of matches played and the average batting performance for each player
 
 <img width="807" alt="Query5" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/1b7da8fb-caca-40bb-886a-76390e591f15">  
 <img width="370" alt="Query5 Results" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/ee55d48c-5ab7-4d6c-a1ad-7962a09485b6">
