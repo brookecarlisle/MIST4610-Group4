@@ -206,69 +206,79 @@ In essence, the relationships within our data model reflect the many interaction
 | Subquery                |         |         |         |         |         |         |     X    |   X      |    X     |    X      |
 | Correlated Subquery     |         |         |         |         |         |         |    X     |         |         |          |
 
-1. Write a query to find the names, positions, batting averages, bowling averages, and membership types of cricket players whose batting averages are greater than 65. Order the Results in descending order.
+Query 1. Write a query to find the names, positions, batting averages, bowling averages, and membership types of cricket players whose batting averages are greater than 65. Order the Results in descending order.
 
 <img width="522" alt="Query1 " src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/1333ea18-917b-4416-92b1-6a4b7b40016a">
 <img width="726" alt="Query1 Results" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/0ff3e7a7-d7cd-4cb2-bc0e-d0141a609643">
 
 Query 1 retrieves information about players along with their membership type and if they have a batting average greater than 65. It helps in understanding the performance of players who are also members of the organization.
 
-2. Write a query that can calculate the total expenses incurred in the first half of the year 2024 and provide the result.
+
+Query 2. Write a query that can calculate the total expenses incurred in the first half of the year 2024 and provide the result.
 
 <img width="518" alt="Query 2" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/d614cbce-4999-477a-bb8f-78b5000f2240">
 <img width="604" alt="Query2 Results" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/62d6c4ed-75ae-4e5c-aa1f-aeb1580081cd">
 
 Query 2 calculates the total expenses incurred between January 1, 2024, and May 31, 2024, from the financial management. It filters the data based on the transaction type being an expense and then uses the SUM() function to calculate the total amount. This is beneficial because it helps the club determine how much money was spent in the first half of the year and any updates they may need to make to their budget for the second half of the year.
 
-3. Write a query that showcases information such as name, position, and batting average of Bowler(position), Alice Smith.
+
+Query 3. Write a query that showcases information such as name, position, and batting average of Bowler(position), Alice Smith.
    
 <img width="557" alt="Query3" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/263d65b0-b34a-4c34-8dfc-2169444a38c4">
 <img width="523" alt="Query3 Results" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/fde579fc-63ed-48b0-8b35-6c2c2d1cb812">
 
 Query 3 joins the MembershipManagement table and the playerProfiles table based on the memberID in the MembershipManagement table and the PlayerID in the playerProfiles table. As a result, it retrieves the name (Name), position (positionPlayed), and batting average of specific players.
 
-4. Write a query to find the name of the coach of each team who has qualifications that are in Level 3.
+
+Query 4. Write a query to find the name of the coach of each team who has qualifications that are in Level 3.
 
     <img width="444" alt="Query4" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/39c46a7d-384e-4b39-85eb-8a458e2b6fa4">
 <img width="506" alt="Query4 Results" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/3d9cdde3-75cb-48ed-9938-e76904eec0f0">
 
 Query 4 joins the CoachingandDevelopment table with the teamManagement table so that it can retrieve the Coach and match them to their team. It also refines the retrieval of data to only coaches that have a qualification level of 3.
 
-5. Formulate an SQL query to calculate the total number of matches played and the average batting performance for each player?
+
+Query 5. Formulate an SQL query to calculate the total number of matches played and the average batting performance for each player?
+
 <img width="807" alt="Query5" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/1b7da8fb-caca-40bb-886a-76390e591f15">  
 <img width="370" alt="Query5 Results" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/ee55d48c-5ab7-4d6c-a1ad-7962a09485b6">
 
 Query 5 calculates the total number of matches played and the average batting average for each player. Evaluating player performance and optimizing team composition are essential for this information. Understanding players' participation and performance metrics can help adjust training programs or make strategic decisions.
 
-6. List the Number of new members that joined in February 2024.
+
+Query 6. List the Number of new members that joined in February 2024.
 
 <img width="433" alt="Query6" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/99d85cb2-1804-46f4-871d-1888a14c8642">
 <img width="270" alt="Query6 Results" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/f306e7a7-15af-4002-9b32-e8809baa2b75">
 
 Query 6 calculates the number of new members who have joined in the Feb 2024. It's used to assess the organization's growth trend and the effectiveness of efforts to attract new members. Analyzing membership trends can help adjust marketing strategies.
 
-7. Write a Query that lists the players with a batting average above the overall average batting average of all players.
+
+Query 7. Write a Query that lists the players with a batting average above the overall average batting average of all players.
    
 <img width="540" alt="Query7" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/d062c29c-d663-4bfe-a212-6e3245b64819">
 <img width="512" alt="Query7 Results" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/848bb93d-9add-488b-ba73-651f68d64424">
 
 Query 7 returns a list of players whose batting average is above the average. It helps in identifying key players and improving the overall performance of the squad. Opportunities can be given to high-performing players or considered for incentives.
 
-8. Write a query to calculate and display the percentage change in revenue compared to the previous month.
+
+Query 8. Write a query to calculate and display the percentage change in revenue compared to the previous month.
    
 <img width="790" alt="Query8" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/54032d39-c9d5-4c58-9845-84c03aeee941">
 <img width="523" alt="Query8 Results" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/a27def8f-b0b3-4e86-9bd0-9985ec9fc4d5">
 
 Query 8 calculates the percentage change in revenue for the current month compared to the previous month. Monitoring financial status and evaluating the effectiveness of revenue-generating strategies. Tracking revenue changes can inform actions to maintain the organization's financial health.
 
-9. Write an SQL script that retrieves a comprehensive list of players who have participated in every single match throughout the tournament.
+
+Query 9. Write an SQL script that retrieves a comprehensive list of players who have participated in every single match throughout the tournament.
     
 <img width="942" alt="Query9" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/e5f68d29-d282-4426-a130-48edd0633280">
 <img width="987" alt="Query9 Results" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/1f2e409d-c350-4b50-b615-06c627ac88aa">
 
 Query 9 returns a list of players who have participated in all matches. It aids in identifying key players for the team and managing player appearances. Incentives or additional training could be considered for key performing players.
 
-10. Write an SQL query that calculates the average batting and bowling averages for cricket players and also counts the number of players whose batting average is higher than the average batting average or whose bowling average is lower than the average bowling average
+
+Query 10. Write an SQL query that calculates the average batting and bowling averages for cricket players and also counts the number of players whose batting average is higher than the average batting average or whose bowling average is lower than the average bowling average
 
 <img width="604" alt="Query10" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/3ff6c526-b983-4064-b10f-64eeb0bd92fd">
 <img width="720" alt="Query10 Results" src="https://github.com/rjo82443/Cricket_Group4/assets/163200089/3a517980-0bcf-40e7-948b-5795c378ce6b">
