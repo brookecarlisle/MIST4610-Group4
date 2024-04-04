@@ -6,7 +6,7 @@
 ## Team Members:
 
 1. Ryan Overbeck https://github.com/rjo82443?tab=repositories
-2. Minwoo Park
+2. Minwoo Park https://github.com/Haroom02
 3. Brooke Carlisle https://github.com/brookecarlisle
 4. Mathias Flanagan
 5. Connor Walker
