@@ -9,7 +9,7 @@
 2. Minwoo Park https://github.com/Haroom02
 3. Brooke Carlisle https://github.com/brookecarlisle
 4. Mathias Flanagan https://github.com/mf727
-5. Connor Walker
+5. Connor Walker https://github.com/connorwalker33
 
 ## Problem Description:
 Pretend you are the owner/operator of a Cricket club needing to build a relational database. You hired some students from the MIST 4610 class at the University of Georgia to create the database for you. They need to know more about your organization to identify which entities, attributes, and relationships are important for you. Start by describing your business as a real client.
